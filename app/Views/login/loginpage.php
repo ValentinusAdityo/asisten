@@ -16,6 +16,6 @@
         PASSWORD:<input type="text" name="pwd" /><br />
         <input type="submit" name="submit" value="login" />
     </form>
-</body>
+</body><!--test-->
 
 </html>

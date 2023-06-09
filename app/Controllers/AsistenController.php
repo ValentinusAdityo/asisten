@@ -16,6 +16,10 @@ class AsistenController extends BaseController
 
     public function index()
     {
+        $session = session();
+        if ($session->has('pengguna')) {
+        $session->remove('pengguna');
+        }
         return view('asisten/loginpage');
     }
 
